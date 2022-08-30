@@ -2,7 +2,7 @@
 42 Mulhouse Course remake
 
 # RULES
-• Votre projet doit être écrit en C.
+* Votre projet doit être écrit en C.
 
 • Votre projet doit être codé à la Norme. Si vous avez des fichiers ou fonctions bonus,
   celles-ci seront inclues dans la vérification de la norme et vous aurez 0 au projet en cas de faute de norme.
