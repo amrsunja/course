@@ -1,6 +1,6 @@
 #include "libft.h"
 
-void *ft_memset(void *b, int c, size_t len) {
+void *ft_memset(void *buffer, int to_write, size_t bytes_count) {
     // This function will writes *len *c bytes to the buffer *b.
     // And it will return the first char of *b
 
@@ -8,11 +8,11 @@ void *ft_memset(void *b, int c, size_t len) {
     unsigned char *temp_buffer;
 
     i = 0;
-    temp_buffer = (unsigned char *) b;
+    temp_buffer = (unsigned char *) buffer;
 
-    while (len-- > 0)
-        temp_buffer[i++] = (unsigned char) c;
+    while (bytes_count-- > 0)
+        temp_buffer[i++] = (unsigned char) to_write;
 
-    b = (void *) temp_buffer;
-    return (b);
+    buffer = (void *) temp_buffer;
+    return (buffer);
 }

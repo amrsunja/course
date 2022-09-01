@@ -14,14 +14,17 @@
 # define LIBFT_H
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <stddef.h>
 
-int     ft_isalpha(int c);
-void    *ft_memset(void *b, int c, size_t len);
-void    ft_bzero(void *s, size_t n);
+void    *ft_memset(void *buffer, int to_write, size_t bytes_count);
+void    ft_bzero(void *buffer, size_t bytes_count);
 void    *ft_memcpy(void *dst, const void *src, size_t n);
 void    *ft_memmove(void *dst, const void *src, size_t len);
+void	*ft_calloc(size_t count, size_t type_size);
+
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 size_t	ft_strlen(const char *string);
+int     ft_isalpha(int c);
 
 #endif

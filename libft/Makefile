@@ -9,7 +9,7 @@ AR = ar rc
 RN = ranlib
 
 FILES = isalpha.c memset.c bzero.c memcpy.c memmove.c strlcpy.c \
-				strlen.c
+				strlen.c calloc.c
 
 OBJS = $(FILES:.c=.o)
 
