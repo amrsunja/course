@@ -3,9 +3,9 @@
 
 int main (void) {
     char *dst = "hello";
-    char *src = 
+	size_t len = ft_strlen(dst);
 
-    printf("isalpha: %s\n", c);
-    printf("isalpha: %c\n", *(c+2));
+	printf("len: %zu\n", len);
+
     return (0);
 }
