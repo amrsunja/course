@@ -12,6 +12,8 @@
 #include <fcntl.h>
 
 char    *get_next_line(int fd);
-void	*ft_calloc(size_t count, size_t type_size);
+void		*ft_calloc(size_t count, size_t type_size);
+size_t	str_len(const char *str);
+char	*add_item_in_string(char *oldString, char sym);
 
 #endif
