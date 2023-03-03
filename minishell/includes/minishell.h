@@ -6,7 +6,7 @@
 /*   By: aazdoev <aazdoev@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/01 22:00:13 by aazdoev           #+#    #+#             */
-/*   Updated: 2023/03/01 22:00:42 by aazdoev          ###   ########.fr       */
+/*   Updated: 2023/03/03 14:46:42 by aazdoev          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,7 @@ typedef struct	s_env
 
 typedef struct	s_mini
 {
-	t_token			*start;
+	t_token		*start;
 	t_env			*env;
 	t_env			*secret_env;
 	int				in;
